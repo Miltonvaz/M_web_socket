@@ -3,11 +3,10 @@ package infrastructure
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/streadway/amqp"
 	"log"
 	"os"
 	"web_socket/src/application"
-
-	"github.com/streadway/amqp"
 )
 
 type RabbitMQConsumer struct {
